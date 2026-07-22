@@ -3,7 +3,7 @@ import { Send, Bot, LayoutDashboard, MessageSquare, LogOut, User, Lock, Mail, Pl
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import axios from 'axios';
 
-const API_URL = 'https://finpilot-backend.onrender.com'; // GARANTA QUE ESTA É A SUA URL DO RENDER
+const API_URL = 'https://finpilot-backend-7qjp.onrender.com'; // GARANTA QUE ESTA É A SUA URL DO RENDER
 const COLORS = ['#2563eb', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#6366f1'];
 
 function App() {
