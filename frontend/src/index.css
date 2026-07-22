@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Aqui a gente define as cores customizadas no estilo v4 */
+@theme {
+  --color-brand-light: #f3f4f6;
+  --color-brand-primary: #2563eb;
+  --color-brand-dark: #1e40af;
+}
+
+/* Estilo do body sem usar o @apply que está dando erro */
+body {
+  background-color: #f9fafb; /* equivalente ao bg-gray-50 */
+  color: #111827; /* equivalente ao text-gray-900 */
+}

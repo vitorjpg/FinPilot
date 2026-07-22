@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+langchain
+langchain-community
+langchain-groq  # Se for usar a API do Groq (Recomendado para Dev)
+# ou
+# langchain-ollama # Se for rodar local
+pydantic
+sqlalchemy
